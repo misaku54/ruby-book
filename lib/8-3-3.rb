@@ -13,5 +13,6 @@ class Product
   end
 end
 
+
 Product.create_products([])
 Product.log('aaa')
