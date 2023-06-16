@@ -12,3 +12,4 @@ end
 user = User.new('Alice')
 user.hello
 # アルファベットの大文字で始まる識別しは定数とみなされる。
+#   
