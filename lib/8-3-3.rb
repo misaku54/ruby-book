@@ -14,5 +14,5 @@ class Product
 end
 
 
-Product.create_products([])
-Product.log('aaa')
+
+puts Product.included_modules
