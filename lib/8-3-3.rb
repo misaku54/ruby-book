@@ -16,3 +16,7 @@ end
 
 
 puts Product.included_modules
+product = Product.new
+puts product.is_a?(Product)
+puts product.is_a?(Loggable)
+puts product.is_a?(Object)
