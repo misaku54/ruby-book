@@ -7,7 +7,7 @@ begin
   print 'Pattern?:'
   pattern = gets.chomp
   regexp  = Regexp.new(pattern)
-rescue
+rescue RegexpError => e
   puts "Invalid pattern: #{e.message}"
   retry
 end
