@@ -2,7 +2,7 @@
 print 'Text?:'
 text = gets.chomp
 
-# 例外処理を組み込んで再入力可能にする。
+# 例外処理を組み込んで再入力可能にする
 begin
   print 'Pattern?:'
   pattern = gets.chomp
